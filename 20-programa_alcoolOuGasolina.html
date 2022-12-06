@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina</h3>
+
+Você agora é uma pessoa desenvolvedora e gostaria de aplicar seus conhecimentos em programação para resolver problemas do cotidiano.<br>
+O primeiro problema que surge é sobre o consumo de combustível de seu carro, vamos olhar com mais atenção os detalhes? Portanto, confira<br>
+as informações abaixo:<br>
+Seu carro tem um tanque de 40 litros e pode utilizar álcool ou gasolina.<br>
+Com gasolina e usando todo o tanque você percorre um caminho com gasolina de 480 quilômetros. Qual é o consumo de gasolina?<br>
+Com álcool, um tanque de 40 litros fez um caminho com Álcool de 300 quilômetros. Qual é o consumo de Álcool?<br>
+Certo! Agora que entendemos o problema, precisamos materializar sua solução em código. Confira:<br>
+Primeiro temos a estrutura mínima para que o programa rode. Vamos aproveitar e já colocar o título do programa no mundo HTML:<br>
+
+<script>
+	
+var tanque = 40; 
+var caminhoComGasolina = 480;
+var caminhoComAlcool = 300; 
+
+var consumoDeGasolina = caminhoComGasolina/tanque;
+var consumoDeAlcool = caminhoComAlcool/tanque;
+
+ 
+
+document.write("<br>O consumo de gasolina foi de " + consumoDeGasolina + " litros por km2" );
+document.write("<br>O consumo do veículo usando alcool foi de " + consumoDeAlcool + " litros por km2" );
+
+</script>

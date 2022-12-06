@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+
+<script>
+
+var ano = 2022
+
+document.write("<b>Aqui estou usando variável declarando ano desejado 2022</b>" + "<br>");
+
+document.write("Marcos tem: " + (ano - 1967) + " anos." + "<br>");
+document.write("Gisele tem: " + (ano - 1974) + " anos." + "<br>");
+document.write("Ramon tem: " + (ano - 1992) + " anos." + "<br>");
+document.write("Alice tem: " + (ano - 2011) + " anos." + "<br>");
+document.write("Letícia tem: " + (ano - 2017) + " anos." + "<br><br>");
+
+document.write("<b> Aqui estou mudando o ano sem declarar a variável ano, só atribuindo novo valor 2026!</b>" + "<br>")
+
+ano = 2026 
+
+document.write("Marcos tem: " + (ano - 1967) + " anos." + "<br>");
+document.write("Gisele tem: " + (ano - 1974) + " anos." + "<br>");
+
+document.write("<br> <b> Exercício com novas variáveis calculando e arredondando a média das idades de 2022: </b>");
+
+var idadeMarcos = 55
+var idadeGisele = 48
+var idadeRamon = 30
+var idadeAlice = 11
+var idadeLeticia = 5 
+var media = (idadeMarcos + idadeGisele + idadeRamon + idadeAlice + idadeLeticia )/5
+
+document.write("<br>A média das idades é " + Math.round(media));
+
+var nome = "Marcos"
+document.write("<br> A idade de " + nome + " é " + idadeMarcos);
+
+
+</script>

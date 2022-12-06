@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha( ) {
+		 document.write("<br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();       
+	}
+    
+    function somar(primeiroNum, segundoNum){
+    	var calculo = primeiroNum + segundoNum;
+    	 mostra("A soma de " + primeiroNum + " e " + segundoNum + " é igual a  " + calculo);
+          
+
+         // Com essa forma aqui, eu não declaro a variável
+    	 //mostra("A soma dos dois números é : " + (primeiroNum + segundoNum) );
+    }
+   
+        somar(10, 30);
+        somar(50, 345);
+        somar(25,27); 	
+ 
+</script>
