@@ -10,17 +10,20 @@
     console.log(segredo); // só está aqui para eu consultar se quiser testar
 
     var trazendoinput = document.querySelector("input");
+    trazendoinput.focus(); //colocando o focus aqui. Já faço ele ganhar foco assim que trago ele do html
 
-    function verifica() {
+    function verifica() {       
 
         if(trazendoinput.value == segredo) {
 
         alert("Você ACERTOU!");
         } else {
 
-        alert("Você ERROU!!!!!!!!");
+        alert("<Você ERROU!!!!!!!!");
         }
-
+        
+        trazendoinput.value = "";
+        trazendoinput.focus();
     }
 
     var trazendobutton = document.querySelector("button");
